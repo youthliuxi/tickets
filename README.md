@@ -13,4 +13,5 @@ python tickets.py [-dgktzl] 起点 终点 日期
 
 ### 运行环境
 1. python3
-2. 安装了requests、docopt包
+2. 需要安装的：requests、docopt、colorama、prettytable
+3. 编程过程中使用的：pprint
