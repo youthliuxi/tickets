@@ -35,7 +35,8 @@ def cli():
     	'leftTicketDTO.to_station={}&'
     	'purpose_codes=ADULT').format(date,from_station,to_station)
     r = requests.get(url, verify=False)
-    # print(url)
+#    print(url)
+#    print(r.text)
     raw_trains = r.json()['data']['result']
     pt = PrettyTable()
     pt._set_field_names('车次 车站 时间 历时 一等座 二等座 软卧 硬卧 软座 硬座 无座'.split())

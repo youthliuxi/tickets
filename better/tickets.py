@@ -103,7 +103,6 @@ class Cli(object):
 
     @property
     def request_url(self):
-        # print(self.url_template.format(self.date, self.from_station, self.to_station))
         return self.url_template.format(self.date, self.from_station, self.to_station)
 
     def check_arguments_validity(self):
